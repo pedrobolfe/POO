@@ -1,0 +1,17 @@
+/*
+Classe impressão de texto: "nome_do_programa.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
+
+public class Main
+{// Início da classe Main
+    // método main inicia a execução dp app java
+	public static void main(String[] args){// início do método main
+	    // Código
+	    
+	    
+	}// fim do método main
+}// fim da classe PrimeiroProgramaJava
