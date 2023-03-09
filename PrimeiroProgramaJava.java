@@ -7,5 +7,6 @@ public class PrimeiroProgramaJava
 		System.out.println("Commit 02");
 		System.out.println("Commit 03");
 		System.out.println("Commit 04");
+		System.out.println("Commit 05");
 	}// fim do método main
 }// fim da classe PrimeiroProgramaJava
