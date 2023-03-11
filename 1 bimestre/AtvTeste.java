@@ -1,23 +1,20 @@
 /*
-Classe impressão de texto: "nome_do_programa.java"
+Classe impressão de texto: "AtvTeste.java"
 IFPR - Campus Cascavel
 Disciplina: Programação orientada a Objetos
 Professor: Nelson Bellincanta
 Aluno: Pedro Henrique Schroeder Bolfe
 */
 
-import java.util.Scanner;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Arrays;
-import java.util.List;
+/*Criar uma classe que gere uma saída de texto entre aspas duplas, criando uma nova linha e posicionando o cursor na linha abaixo.*/
 
 // Declaracao da classe AtvTeste
-public class Main
+public class AtvTeste
 {// Início da classe Main
     // Declaracao do método main que inicia a execução do programa
 	public static void main(String[] args){// início do método main
-	    // Código
-	      
+        // impressao do texto
+	    System.out.println("\"eai\"");
+    
 	}// fim do método main
-}// fim da classe PrimeiroProgramaJava
+}// fim da classe AtvTeste
