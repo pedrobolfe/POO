@@ -2,4 +2,4 @@
 - Pedro Henrique Schroeder Bolfe
 
 # Curso
-- Terceiro de informática
+- Tecnico em informática
