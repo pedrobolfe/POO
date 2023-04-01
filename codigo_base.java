@@ -13,4 +13,4 @@ public class Codigo_base
 	public static void main(String[] args){// início do método main
 	    // Codigo
 	}// fim do método main
-}// fim da classe PrimeiroProgramaJava
+}// fim da classe Codigo_base
