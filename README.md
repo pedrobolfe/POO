@@ -1,5 +1,10 @@
-## 2023INT-POO
-Programação Orientada a Objetos.
+# Apresentação do aluno
 
+## Aluno
+- Pedro Henrique Schroeder Bolfe
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pedrobolfe/POO.git/HEAD)
+## Curso
+- Tec. em Inf - Programação Orientada a Objetos.
+
+## Links paras as Atividades
+
