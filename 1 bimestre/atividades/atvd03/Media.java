@@ -1,5 +1,5 @@
 /*
-Classe impressão de texto: "nome_do_programa.java"
+Classe impressão de texto: "Media.java"
 IFPR - Campus Cascavel
 Disciplina: Programação orientada a Objetos
 Professor: Nelson Bellincanta
@@ -8,8 +8,8 @@ Aluno: Pedro Henrique Schroeder Bolfe
 
 import javax.swing.JOptionPane;
 
-// Declaracao da classe Main
-public class Main
+// Declaracao da classe Media
+public class Media
 {// Início da classe Main
     // Declaracao do método main que inicia a execução do programa
 	public static void main(String[] args){// início do método main
