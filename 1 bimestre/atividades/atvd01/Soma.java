@@ -12,7 +12,7 @@ Argumentos inválidos devem ser desconsiderados sem provocar a exibição de err
 
 import java.util.Scanner;
 // Declaracao da classe Main
-public class Main
+public class Soma
 {// Início da classe Main
     // Declaracao do método main que inicia a execução do programa
 	public static void main(String[] args){// início do método main
