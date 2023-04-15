@@ -1,5 +1,5 @@
 /*
-Classe impressão de texto: "nome_do_programa.java"
+Classe impressão de texto: "balancotrimestral.java"
 IFPR - Campus Cascavel
 Disciplina: Programação orientada a Objetos
 Professor: Nelson Bellincanta
