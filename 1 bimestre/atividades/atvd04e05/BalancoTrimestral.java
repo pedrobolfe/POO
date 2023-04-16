@@ -11,15 +11,15 @@ public class BalancoTrimestral
 {// Início da classe Main
     // Declaracao do método main que inicia a execução do programa
 	public static void main(String[] args){// início do método main
-	    double gastosJaneiro = 30000.00;
-        double gastosFevereiro = 33030.77;
-        double gastosMarco = 23899.01;
+	    double gastosJaneiro = 30000.00;    // declarando e iniciando a var gastos de janeiro 
+        double gastosFevereiro = 33030.77;  // declarando e iniciando a var gastos de fevereiro 
+        double gastosMarco = 23899.01;     // declarando e iniciando a var gastos de marco 
 
-        double gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
+        double gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco; // somando todos os gastos
 
-        String mediaMensal = "Valor da média mensal = " + gastosTrimestre / 3;
+        String mediaMensal = "Valor da média mensal = " + gastosTrimestre / 3; // calculando a media dos gastos mensais
 
-        System.out.println(gastosTrimestre);
-        System.out.println(mediaMensal);
+        System.out.println(gastosTrimestre);    // print de todos os gastos 
+        System.out.println(mediaMensal); // print da media dos gastos mensais
 	}// fim do método main
 }// fim da classe Codigo_base

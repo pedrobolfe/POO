@@ -1,3 +1,9 @@
+# Atividade 01
+
+* Aluno: Pedro Henrique Schroeder Bolfe
+* Turma: 3° Info 
+* Proposta: Crie uma classe em Java que seja capaz de apresentar a soma de todos os argumentos inteiros ou reais recebidos. Argumentos inválidos devem ser desconsiderados sem provocar a exibição de erros ou exceções.
+
 /*
 Classe impressão de texto: "Main.java"
 IFPR - Campus Cascavel
