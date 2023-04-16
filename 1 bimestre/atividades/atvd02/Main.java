@@ -15,14 +15,15 @@ public class Main {//inicio da classe Atv02
         Scanner leitor = new Scanner(System.in);    // declaração da variavel que armazena a entrada de dados
 
         System.out.print("Informe um inteiro: ");   //mensagem de comando 
+        
         B = leitor.nextInt();    //variavel onde a resposta do comando deve ser armazenada
 
-        leitor.close();  //fecha a variavel de armazenamento de dados
-        
         C = 9; //iniciando a variável C
         
         A = B * C; // produto de B e C armazenados na variável A
         
         System.out.print("O produto de A por B: " + B + " e por C: " + C + " é igual a: " + A);//mostra na tela o resultado 
+
+        leitor.close();  //fecha a variavel de armazenamento de dados
     } //fim do método main
 }//fim da classe Atv02 
