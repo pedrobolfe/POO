@@ -1,0 +1,32 @@
+# Atividade 05
+
+* Aluno: Pedro Henrique Schroeder Bolfe
+* Turma: 3° Info 
+* Proposta: Adicione a Atv04 (sem alterar as linhas existentes) o cálculo para a média mensal de gastos, criando uma variável mediaMensal junto com uma mensagem. Para isso, concatene a String com o valor, usando "Valor da média mensal = " + mediaMensal.
+
+```
+/*
+Classe impressão de texto: "balancotrimestral.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
+
+// Declaracao da classe Main
+public class BalancoTrimestral
+{// Início da classe Main
+    // Declaracao do método main que inicia a execução do programa
+	public static void main(String[] args){// início do método main
+	    double gastosJaneiro = 30000.00;    // declarando e iniciando a var gastos de janeiro 
+        double gastosFevereiro = 33030.77;  // declarando e iniciando a var gastos de fevereiro 
+        double gastosMarco = 23899.01;     // declarando e iniciando a var gastos de marco 
+
+        double gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco; // somando todos os gastos
+
+        String mediaMensal = "Valor da média mensal = " + gastosTrimestre / 3; // calculando a media dos gastos mensais
+
+        System.out.println(gastosTrimestre);    // print de todos os gastos 
+        System.out.println(mediaMensal); // print da media dos gastos mensais
+	}// fim do método main
+}// fim da classe Codigo_base
