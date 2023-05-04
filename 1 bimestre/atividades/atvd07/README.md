@@ -20,8 +20,8 @@ public class Notas{  // Início da classe Notas
 	public static void main(String[] args) {
         Float media = 0f; // uma variavel para calcular a media
 		String aux; // variavel auxliar
-        int notas[] = new int[5]; // declaração e alocação de um array
-        String notas_ordem = "";
+        int notas[] = new int[5]; // declarando e alocando o tamanho de um array
+        String notas_ordem = ""; // string para fazer a exibição das notas em ordem decrescente
         
         for (int i = 0; i < 5; i++){ // inicio do loop for, usando loop for para repetir 5 vezes a classe JOptionPane para pedir as notas da prova
             aux = JOptionPane.showInputDialog("Entre com a nota da " + (i+1) + " prova:"); // caixas de dialogo para pedir as notas
