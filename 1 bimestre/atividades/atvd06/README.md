@@ -21,6 +21,7 @@ public class Deposito
 	public static void main(String[] args){// início do método main
 	    double dep_mensal;  //declarando a  var dep_mensal que e o deposito mensal
 	    float mont_desejavel; // declarando a var mont_desejavel que e o montante desejavel
+        float mont_atual = 0f;
 	
         Scanner leitor = new Scanner(System.in);    // scanner leitor para a entrada de dados
 
@@ -31,11 +32,10 @@ public class Deposito
         mont_desejavel = leitor.nextFloat(); // montante desejavelpega o proximo valor do leitor
 
         int cont = 0; // contador para saber qnts meses serao necessarios
-        while (dep_mensal < mont_desejavel) { // inicio do loop while ate o deposito mensal ser maior que o montante desejavel
-            dep_mensal += (dep_mensal * 0.5); // calculando o juros
+        while (mont_atual < mont_desejavel) { // inicio do loop while ate o deposito mensal ser maior que o montante desejavel
+            mont_atual += (dep_mensal + dep_mensal * 0.05); // calculando o juros (0,05% do deposito mensal)
             cont +=1; // aumentando o contador para calcular os meses
         } // fim loop while
         System.out.println("Serao necessarios " + cont + " meses para alcancar o montante desejavel"); // saida de dados para informar a qnt de meses necessarios
 	}// fim do método main
 }// fim da classe Codigo_base
-
