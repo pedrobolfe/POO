@@ -42,8 +42,8 @@ public class Notas{  // Início da classe Notas
         } // fim loop for
 
         for (int num : notas) { // inicio do loop for 
-			notas_ordem += num + "; ";  // colocando na string o numero e mais um ";" para "separar" os numeros
-		} // fim do loop for
+		notas_ordem += num + "; ";  // colocando na string o numero e mais um ";" para "separar" os numeros
+	} // fim do loop for
 
         JOptionPane.showMessageDialog(null, "Notas = " + notas_ordem); // exibindo as notas em ordem decrescente em um caixa de dialogo usando a classe JOptionPane 
         JOptionPane.showMessageDialog(null, "Media = " + media/5); // exibindo a media das notas em uma caixa de dialogo usando a classe JOptionPane 
