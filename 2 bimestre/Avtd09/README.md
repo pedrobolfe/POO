@@ -16,7 +16,6 @@ Observações:
 * Utilize estruturas de repetição e operações matemáticas para calcular a soma dos números.
 
 ```
-
 /*
 Classe impressão de texto: "ExercicioSemRetorno.java"
 IFPR - Campus Cascavel
@@ -26,7 +25,6 @@ Aluno: Pedro Henrique Schroeder Bolfe
 */
 
 import java.util.ArrayList;
-
 
 //inicio da classe ExercicioSemRetorno
 public class ExercicioSemRetorno{  
@@ -38,7 +36,7 @@ public class ExercicioSemRetorno{
             aux += i + " "; // adicionando a var aux o elemento i + um espaco " " 
         } //fim loop for
 
-        System.out.println(aux);
+        System.out.println(aux); // exibindo os elementos da lista separados por " "
     } //fim do método imprimirNumeros
 
     //inicio do método somaNumeros
