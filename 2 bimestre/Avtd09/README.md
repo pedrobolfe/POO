@@ -11,9 +11,9 @@
 - No método main, um array de números inteiros é criado e inicializado. Você deve chamar o método imprimirNumeros passando o array como argumento. Em seguida, chame o método somaNumeros para calcular a soma dos números e exibir o resultado. Por fim, chame novamente o método imprimirNumeros para exibir o array atualizado após a soma.
 
 Observações:
-## Os métodos imprimirNumeros e somaNumeros devem ser implementados dentro da classe ExercicioSemRetorno.
+* Os métodos imprimirNumeros e somaNumeros devem ser implementados dentro da classe ExercicioSemRetorno.
 
-## Utilize estruturas de repetição e operações matemáticas para calcular a soma dos números.
+* Utilize estruturas de repetição e operações matemáticas para calcular a soma dos números.
 
 ```
 
