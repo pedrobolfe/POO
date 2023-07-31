@@ -1,3 +1,11 @@
+/*
+Classe impressão de texto: "Ave.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
+
 class Ave{ //inicio da classe AVe
     public String nome; //cria o atributo publico
     public int idade; //cria o atributo publico
