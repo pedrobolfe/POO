@@ -9,8 +9,13 @@ public class Mamiferos{
 
     public void emitirSom() {
         // codigo
-
+    }
     public void mover() {
-        // codigo
+        System.out.println("sla");
+    }
+    
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
     }
 }
