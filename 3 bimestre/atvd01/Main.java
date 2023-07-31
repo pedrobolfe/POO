@@ -1,3 +1,10 @@
+/*
+Classe impressão de texto: "Main.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
 public class Main { //inicio da classe Main
     public static void main(String[] args) { //inicio do metodo main
         // cachorros
