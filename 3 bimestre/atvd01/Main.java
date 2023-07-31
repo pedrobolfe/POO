@@ -1,10 +1,10 @@
-import mamiferos.Cachorros;
-import aves.Passaros;
+import Mamiferos.Cachorro;
+import Ave.Passaro;
 
 public class Main {
     public static void main(String[] args) {
         // cachorros
-        Cachorros cachorro1 = new Cachorros("doguin", 5, "vira-lata");
+        Cachorro cachorro1 = new Cachorro("doguin", 5, "vira-lata");
         cachorro1.emitirSom();
         cachorro1.mover();
         cachorro1.abanarRabo();
@@ -12,7 +12,7 @@ public class Main {
         System.out.println('');
 
         // passaros
-        Passaros passaro1 = new Passaros("sebastião-papagaio", 3, "verde");
+        Passaro passaro1 = new Passaro("sebastião", 3, "papaguaio");
         passaro1.emitirSom();
         passaro1.voar();
         passaro1.construirNinho();
