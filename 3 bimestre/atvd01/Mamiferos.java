@@ -1,3 +1,10 @@
+/*
+Classe impressão de texto: "Mamiferos.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
 public class Mamiferos{ //inicio da classe Mamiferos
     public String nome; //cria o atributo publico
     public int idade; //cria o atributo publico
