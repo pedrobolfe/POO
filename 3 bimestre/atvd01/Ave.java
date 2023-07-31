@@ -1,12 +1,17 @@
-class Passaros extends Ave {
-    private String cor;
+class Ave{
+    private String nome;
+    private int idade;
 
-    public Passaros(String nome, int idade, String cor) {
-        super(nome, idade);
-        this.cor = cor;
+    public Aves(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
-    public void construirNinho() {
+    public void emitirSom() {
+        // codigo
+    }
+
+    public void voar() {
         // codigo
     }
 }
