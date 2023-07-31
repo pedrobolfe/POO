@@ -1,3 +1,10 @@
+/*
+Classe impressão de texto: "Passaro.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
 class Passaro extends Ave { //inicio da subclasse Passaro de Ave
     public String cor; //cria o atributo privado: cor
 
