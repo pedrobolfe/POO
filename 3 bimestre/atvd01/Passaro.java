@@ -9,4 +9,8 @@ class Passaro extends Ave {
     public void construirNinho() {
         // codigo
     }
+    
+    public void exibirInformacoes() {
+        System.out.println("Cor: " + cor);
+    }
 }
