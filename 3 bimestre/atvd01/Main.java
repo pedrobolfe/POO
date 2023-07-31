@@ -12,7 +12,7 @@ public class Main {
         System.out.println('');
 
         // passaros
-        Passaro passaro1 = new Passaro("sebastião", 3, "papaguaio");
+        Passaro passaro1 = new Passaro("sebastião-papagaio", 3, "verde");
         passaro1.emitirSom();
         passaro1.voar();
         passaro1.construirNinho();
