@@ -17,7 +17,6 @@
 
 Arquivo Main.java
 ```
-
 public class Main { //inicio da classe Main
     public static void main(String[] args) { //inicio do metodo main
         // cachorros
@@ -38,12 +37,10 @@ public class Main { //inicio da classe Main
 
     }//fim do metodo Main
 }//fim da classe Main
-
 ```
 
 Arquivo Mamiferos.java
 ```
-
 public class Mamiferos{ //inicio da classe Mamiferos
     public String nome; //cria o atributo publico
     public int idade; //cria o atributo privado: idade
@@ -67,12 +64,10 @@ public class Mamiferos{ //inicio da classe Mamiferos
         System.out.println("Idade: " + idade); 
     }//fim do metodo exibirinformaçoes
 }//fim da classe Mamiferos
-
 ```
 
 Arquivo Ave.java
 ```
-
 class Ave{ //inicio da classe AVe
     public String nome; //cria o atributo publico
     public int idade; //cria o atributo publico
@@ -117,12 +112,10 @@ class Cachorro extends Mamiferos { //inicio da subclasse cachorro de Mamiferos
         System.out.println("Nome: " + nome + "\n" + "Raça: " + raca + "\n" + "Idade: " + idade);
     }//fim do metodo exibirInformacoes
 } //fim da subclasse cachorro
-
 ```
 
 Arquivo Passaro.java
 ```
-
 class Passaro extends Ave { //inicio da subclasse Passaro de Ave
     public String cor; //cria o atributo privado: cor
 
@@ -140,5 +133,4 @@ class Passaro extends Ave { //inicio da subclasse Passaro de Ave
         System.out.println("Nome: " + nome + "\n" + "Cor: " + cor + "\n" + "Idade: " + idade);
     }// fim do metodo exibirInformacoes
 } // fim da subclasse Passaro
-
 ```
