@@ -1,21 +1,24 @@
-public class Mamiferos{
-    private String nome;
-    private int idade;
+public class Mamiferos{ //inicio da classe Mamiferos
+    public String nome; //cria o atributo publico
+    public int idade; //cria o atributo publico
 
-    public Mamiferos(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
+    public Mamiferos(String nome, int idade) { //inicio da superclasse Mamiferos
+        this.nome = nome; // referencia o atributo nome fora da superclasse
+        this.idade = idade; // referencia o atributo idade fora da superclasse
+    } //fim da superclasse Mamiferos
 
-    public void emitirSom() {
-        // codigo
-    }
-    public void mover() {
-        System.out.println("sla");
-    }
+    public void emitirSom() { //inicio do metodo emitirSom
+        System.out.println(" 'barulho' "); //print
+    } //fim do metodo emitirSom
+
+    public void mover() { //inicio do metodo mover
+        System.out.println(nome + " esta se movendo"); //print
+    } //fim do metodo mover 
+
+    public void exibirInformacoes() { //inicio do metodo exibirInformaçoes
+        // print nome e idade do mamifero
+        System.out.println("Nome: " + nome); 
+        System.out.println("Idade: " + idade); 
+    }//fim do metodo exibirinformaçoes
     
-    public void exibirInformacoes() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
-    }
-}
+}//fim da classe Mamiferos
