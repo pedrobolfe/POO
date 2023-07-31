@@ -9,4 +9,8 @@ class Cachorro extends Mamiferos {
     public void abanarRabo() {
         // codigo
     }
+    
+    public void exibirInformacoes() {
+        System.out.println("Raça: " + raca);
+    }
 }
