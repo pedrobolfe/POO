@@ -1,3 +1,10 @@
+/*
+Classe impressão de texto: "Carro.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
 public class Carro extends Veiculo { // inicio classe Carro, herdando atributos da classe Veiculo
     // declarando o atributo privado da classe Carro
     private int numeroDePortas;
