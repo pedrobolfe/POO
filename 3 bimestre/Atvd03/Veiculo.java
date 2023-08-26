@@ -1,3 +1,10 @@
+/*
+Classe impressão de texto: "Veiculo.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
 public class Veiculo { // inicio classe Veiculo
     // declarando os atributos privados da classe Veiculo
     private String marca; 
