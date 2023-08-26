@@ -1,3 +1,10 @@
+/*
+Classe impressão de texto: "Moto.java"
+IFPR - Campus Cascavel
+Disciplina: Programação orientada a Objetos
+Professor: Nelson Bellincanta
+Aluno: Pedro Henrique Schroeder Bolfe
+*/
 public class Moto extends Veiculo {//inicio classe moto herdando os atributos da classe base Veiculo
     // atributo provado da classe Moto
     private int cilindradas;
