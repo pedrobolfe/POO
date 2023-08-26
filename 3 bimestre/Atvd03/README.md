@@ -3,7 +3,7 @@
 * Aluno: Pedro Henrique Schroeder Bolfe
 * Turma: 3° Info
 
-  Suponha que você está desenvolvendo um sistema de gerenciamento de veículos para uma concessionária. Você precisa modelar diferentes tipos de veículos, como carros e motos, e também precisa implementar funcionalidades específicas para cada tipo de veículo.
+Suponha que você está desenvolvendo um sistema de gerenciamento de veículos para uma concessionária. Você precisa modelar diferentes tipos de veículos, como carros e motos, e também precisa implementar funcionalidades específicas para cada tipo de veículo.
 
 
 Crie uma classe base chamada "Veiculo". Ela deve ter atributos como "marca", "modelo" e "ano". Crie um construtor para inicializar esses atributos e métodos de acesso (getters e setters) para eles.
